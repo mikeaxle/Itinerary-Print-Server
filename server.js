@@ -8,7 +8,7 @@ var express = require('express'),
   app.use(bodyParser.json());
   app.use(cors())
   
-  var routes = require('./api/routes/pdfprintRoutes');
+  var routes = require('./api/routes/print');
   routes(app); //register the route
 
   app.use(function(req, res) {

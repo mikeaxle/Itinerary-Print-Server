@@ -1,522 +1,324 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Document</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-</head>
-<body>
 
-<!-- FIRST PAGE -->
-<div class="page front-page">
-  <header>
-    <div class="logo">
-      <img src="assets/logo@2x.png" alt="" width="200">
-    </div>
-  </header>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <title>Document</title>
+      <style>
 
-  <main style="background-image:url('assets/cover.jpg')">
-    <div class="overlay">
-      <p class="pretext">SAFARI ITINERARY</p>
-      <h1 class="heading">Samantha & John Honeymoon in Tanzania & Zanzibar</h1>
-      <p class="date">17 December – 29 December 2017</p>
-    </div>
-  </main>
+      /* HEADER */
+      header{
+        height: 90px;
+      }
+      header img {
+        display: block;
+        margin: auto;
+        padding-top: 35px
+      }
 
-  <footer>
-    <p class="quote">“I never knew of a morning in Africa when I woke up that I was not happy.”</p>
-    <p class="author">ERNEST HEMMINGWAY</p>
-  </footer>
-</div>
+      header h1.page-header {
+        position: relative;
+        margin: 12px 0px 0px 0px;
+        color: #373737;
+        font-family: 'old_standard_ttitalic';
+        font-size: 24px;
+        font-weight: normal;
+        text-align: center;
+      }
+      header h1.page-header:after {
+        content: "";
+        position: absolute;
+        width: 73px;
+        height: 1px;
+        background-color: #e0e0e0;
+        left: 272px;
+        bottom: -9px;
+      }
 
+      header p.subtitle {
 
-<!-- SECOND PAGE -->
-<div class="page destinations">
+        font-weight: normal;
+        text-align: center;
+        font-family: "montserratregular";
+        font-size: 10px;
+        letter-spacing: 0.8px;
+        color: #373737;
+        text-transform: uppercase;
+        margin: 19px 0px 0px 0px;
+      }
 
-  <h1 class="page-header">Your Destinations</h1>
-  <p class="subtitle">Tanzania & Zanzibar</p>
+    footer {
+      height: 50px;
+      border-top: 1px solid #B18C51;
+      width: 550px;
+      left: 31px;
+      text-align: center;
+      display: block;
+      margin: auto;
+    }
+    footer p{
+      display: inline-block;
+      color: #373737;
+      font-family: "montserratregular";
+      font-size: 7px;
+      font-weight: 300;
+      border-right: 0.5px solid #a3a3a3;
+      margin-top: 15px;
+      padding-right: 5px;
+      padding-left: 5px;
+      margin-right: -4px;
+    }
+    footer p:last-of-type{
+      border-right: none;
+    }
 
+      </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    </head>
+    <body>
+    <!-- THIRD PAGE -->
+    <header id="pageHeader">
+      <img src="http://itinerary-test.nowboarding.co.za/logo@2x.png" width="180">
+    </header>
+    <div class="page itenerary first">
 
-  <main>
-    <div class="container">
-      <div class="img-block" style="background-image:url('assets/galler-1.jpg')">
-        <div class="gradient">
-          <p class="caption">Breathtaking coastal landscapes</p>
+    <h1 class="page-header">Your Itinerary</h1>
+    <p class="subtitle">8 DAYS</p>
+    <div class="line"></div>
+    <main>
+      <div class="container">
+
+        <!-- SIDEBAR -->
+        <ul class="sidebar">
+          <li>
+            <p class="title">Itinerary</p>
+            <p class="field">Faulkner Family Safari </p>
+          </li>
+          <li>
+            <p class="title">Safari Specialist</p>
+            <p class="field">Troy Smith</p>
+          </li>
+          <li>
+            <p class="title">Travel Dates</p>
+            <p class="field">Tue Nov 20 2018 - Tue Nov 27 2018</p>
+          </li>
+          <li>
+            <p class="title">Adults</p>
+            <p class="field">5</p>
+          </li>
+          
+          <li>
+            <p class="title">Status</p>
+            <p class="field">Confirmed</p>
+          </li>
+        </ul>
+
+        <!-- ITENERARY ITEMS -->
+    		<ul class="itenerary-items">
+    			
+
+				 <!-- day + comment -->
+				 <li>
+				 <div class="legend">
+					 <p class="day">Day 1</p>
+					 <p class="date">20 NOV</p>
+				 </div>
+				 <div class="description">
+					 <p>Once you've collected your bags and made your way into the arrivals area at JKIA, you'll be met by a driver and transferred through Nairobi National Park to Ololo Lodge - located away from the hustle and bustle of Nairobi city. Overnight at Ololo Lodge in a Stable Room. </p>
+					  <p class="info">We have booked 3x Stable Rooms for your family.</p>
+				 </div>
+			 </li>
+
+				 <!-- day + comment -->
+				 <li>
+				 <div class="legend">
+					 <p class="day">Day 2</p>
+					 <p class="date">21 NOV</p>
+				 </div>
+				 <div class="description">
+					 <p>Transfer through Nairobi National Park to Wilson Airport for your flight into the bush. Fly from Nairobi through to "the most wildlife dense region in Africa" - the Greater Maasai Mara. On safari at Encounter Mara Camp - game drives (day and night) and walking safaris. Overnight at Encounter Mara in a luxury tent. </p>
+					  <p class="airport">SafariLink Flight: 10.00 - 11.00</p> <p class="info">At Encounter Mara, we have confirmed 1x double tent and 1x triple tent</p>
+				 </div>
+			 </li>
+
+				 <!-- day + comment -->
+				 <li>
+				 <div class="legend">
+					 <p class="day">Day 3 - 4</p>
+					 <p class="date">22 NOV - 23 NOV</p>
+				 </div>
+				 <div class="description">
+					 <p>On safari in the award-winning Mara Naboisho Conservancy - recognized as being home to some of the highest density of lion in all of Africa! Experience game drives (day + night) and walking safaris (conditions permitting). Overnight at Encounter Mara in a luxury tent. </p>
+					 
+				 </div>
+			 </li>
+
+				 <!-- day + comment -->
+				 <li>
+				 <div class="legend">
+					 <p class="day">Day 5</p>
+					 <p class="date">24 NOV</p>
+				 </div>
+				 <div class="description">
+					 <p>Transfer through the bush to Mara House, located in the Mara North Conservancy (approx 1.5hrs). On safari in the Mara North Conservancy. Experience game drives (day + night) and walking safaris (conditions permitting) or simply relax by the pool overlooking the natural watering hole. Overnight at Mara House - your own private bush home. </p>
+					 
+				 </div>
+			 </li>
+
+				 <!-- day + comment -->
+				 <li>
+				 <div class="legend">
+					 <p class="day">Day 6 - 7</p>
+					 <p class="date">25 NOV - 26 NOV</p>
+				 </div>
+				 <div class="description">
+					 <p>On safari in the Mara North Conservancy. Experience game drives (day + night) and walking safaris (conditions permitting) or simply relax by the pool overlooking the natural watering hole. Overnight at Mara House - your own private bush home. </p>
+					 
+				 </div>
+			 </li>
+
+				 <!-- day + comment -->
+				 <li>
+				 <div class="legend">
+					 <p class="day">Day 8</p>
+					 <p class="date">27 NOV</p>
+				 </div>
+				 <div class="description">
+					 <p>Your final morning in the bush before flying back to Nairobi. </p>
+					  <p class="airport">Safarilink Flight: 11.00 - 12.20</p> <p class="info">Own onward arrangements, unless otherwise specified</p>
+				 </div>
+			 </li>
+        </ul>
+    		<!-- end Itenerary items -->
+
+        <!-- quote -->
+        <div class="itenerary-quote">
+          <h2>Quote</h2>
+
+          <table class="quoting" cellspacing="0">
+
+            <!-- Price -->
+            <tr>
+              <td class="description">Average price per person, per day of service</td>
+              <td class="currency">USD</td>
+              <td class="amount"/>443.75</td>
+            </tr>
+            <tr>
+              <td class="description">Average price per person</td>
+              <td class="currency">USD</td>
+              <td class="amount">3,550.00</td>
+            </tr>
+            <tr class="total-price">
+              <td class="description">Total Price</td>
+              <td class="currency">USD</td>
+              <td class="amount">17,750.00</td>
+            </tr>
+
+            
+
+            <!-- payments -->
+             <tr>
+      <td class="description space" >Payment Recieved Tue Feb 06 2018 </td>
+      <td class="currency space">USD</td>
+      <td class="amount space">-5,325.00</td>
+    </tr>
+      
+
+          <!-- BALANCE -->
+            <tr class="balance-due">
+              <td class="description">Balance Due</td>
+              <td class="currency">USD</td>
+              <td class="amount">12,425.00</td>
+            </tr>
+          </table>
         </div>
-      </div>
-      <div class="img-block" style="background-image:url('assets/gallery-2.jpg')">
-        <div class="gradient">
-          <p class="caption">Equisite views from your private retreat</p>
         </div>
-      </div>
-      <div class="img-block" style="background-image:url('assets/gallery-3.jpg')">
-        <div class="gradient">
-        <p class="caption">Private Game Drives & Walking Safaris</p>
-      </div>
-      </div>
-      <div class="img-block" style="background-image:url('assets/gallery-4.jpg')">
-        <div class="gradient">
-          <p class="caption">Experience the Ngorongoro Crater Conservation Area and the Serengeti</p>
-        </div>
-      </div>
-      <div class="img-block" style="background-image:url('assets/gallery-5.jpg')">
-        <div class="gradient">
-          <p class="caption">Absorb the amazing scenery and incredible wildlife</p>
-        </div>
-      </div>
-      <div class="img-block" style="background-image:url('assets/gallery-6.jpg')">
-        <div class="gradient">
-          <p class="caption">Enjoy luxury accommodation</p>
-        </div>
-      </div>
-    </div>
-  </main>
-
-
-</div>
-
-<!-- THIRD PAGE -->
-<div class="page itenerary first">
-
-<h1 class="page-header">Your Itinerary</h1>
-<p class="subtitle">12 Days</p>
-<div class="line"></div>
-
-<main>
-  <div class="container">
-
-    <!-- SIDEBAR -->
-    <ul class="sidebar">
-      <li>
-        <p class="title">Itinerary</p>
-        <p class="field">TA-10125</p>
-      </li>
-      <li>
-        <p class="title">Safari Specilist</p>
-        <p class="field">Troy Smith</p>
-      </li>
-      <li>
-        <p class="title">Travel Dates</p>
-        <p class="field">JUL 01, 2017 - JUL 12, 2017</p>
-      </li>
-      <li>
-        <p class="title">Adults</p>
-        <p class="field">2</p>
-      </li>
-      <li>
-        <p class="title">Children</p>
-        <p class="field">2</p>
-      </li>
-      <li>
-        <p class="title ages">Ages at time of Travel</p>
-        <p class="field">1 x 8 Years, 1 x 6 Years</p>
-      </li>
-      <li>
-        <p class="title">Status</p>
-        <p class="field">Confirmed</p>
-      </li>
-    </ul>
-
-    <!-- ITENERARY ITEMS -->
-    <ul class="itenerary-items">
-
-      <li>
-        <div class="legend">
-          <p class="day">DAY 1</p>
-          <p class="date">1 JUL</p>
-        </div>
-        <div class="description">
-          <p>Arrive into Zanzibar Airport. You will be met by your driver and transferred through to Stone Town. Overnight at Kisiwa House - Burdani Deluxe Room.</p>
-          <p class="airport">BA 285 Departing 22:00 from London Heathrow</p>
-        </div>
-      </li>
-
-      <li>
-        <div class="legend">
-          <p class="day">DAY 2 + 3</p>
-          <p class="date">JUL 1 - JUL 3</p>
-        </div>
-        <div class="description">
-          <p>Own activity: Explore the cobbled streets and meandering laneways of the UNESCO World Heritage Listed site of Stone Town. Overnight at Baraza - Ocean View Suite.</p>
-          <p class="activity">Option to go scuba diving with Jimmys Dive School</p>
-          <p class="info">The accommodation is based on 1x single room and 7x twin /double rooms and one triple room</p>
-        </div>
-      </li>
-
-      <li>
-        <div class="legend">
-          <p class="day">DAY 4</p>
-          <p class="date">JUL 4</p>
-        </div>
-        <div class="description">
-          <p>Arrive into Zanzibar Airport. You will be met by your driver and transferred through to Stone Town. Overnight at Kisiwa House - Burdani Deluxe Room.</p>
-        </div>
-      </li>
-
-      <li>
-        <div class="legend">
-          <p class="day">DAY 5</p>
-          <p class="date">JUL 5</p>
-        </div>
-        <div class="description">
-          <p>Own activity: Explore the cobbled streets and meandering laneways of the UNESCO World Heritage Listed site of Stone Town. Overnight at Baraza - Ocean View Suite.</p>
-        </div>
-      </li>
-
-      <li>
-        <div class="legend">
-          <p class="day">DAY 6 + 7</p>
-          <p class="date">JUL 6 - JUL 7</p>
-        </div>
-        <div class="description">
-          <p>Arrive into Zanzibar Airport. You will be met by your driver and transferred through to Stone Town. Overnight at Kisiwa House - Burdani Deluxe Room.</p>
-          <p class="activity">Option to go scuba diving with Jimmys Dive School</p>
-          <p class="info">The accommodation is based on 1x single room and 7x twin /double rooms and one triple room</p>
-        </div>
-      </li>
-
-      <li>
-        <div class="legend">
-          <p class="day">DAY 8</p>
-          <p class="date">JUL 8</p>
-        </div>
-        <div class="description">
-          <p>Own activity: Explore the cobbled streets and meandering laneways of the UNESCO World Heritage Listed site of Stone Town. Overnight at Baraza - Ocean View Suite.</p>
-        </div>
-      </li>
-
-      <li>
-        <div class="legend">
-          <p class="day">DAY 9</p>
-          <p class="date">JUL 9</p>
-        </div>
-        <div class="description">
-          <p>Own activity: Explore the cobbled streets and meandering laneways of the UNESCO World Heritage Listed site of Stone Town. Overnight at Baraza - Ocean View Suite.</p>
-        </div>
-      </li>
-
-      <li>
-        <div class="legend">
-          <p class="day">DAY 10 + 11</p>
-          <p class="date">JUL 10 - JUL 11</p>
-        </div>
-        <div class="description">
-          <p>Own activity: Explore the cobbled streets and meandering laneways of the UNESCO World Heritage Listed site of Stone Town. Overnight at Baraza - Ocean View Suite.</p>
-          <p class="activity">Option to go scuba diving with Jimmys Dive School</p>
-          <p class="info">The accommodation is based on 1x single room and 7x twin /double rooms and one triple room</p>
-        </div>
-      </li>
-
-      <li>
-        <div class="legend">
-          <p class="day">DAY 12</p>
-          <p class="date">12 JUL</p>
-        </div>
-        <div class="description">
-          <p>Arrive into Zanzibar Airport. You will be met by your driver and transferred through to Stone Town. Overnight at Kisiwa House - Burdani Deluxe Room.</p>
-          <p class="airport">BA 285 Departing 22:00 from London Heathrow</p>
-        </div>
-      </li>
-
-    </ul>
-    <!-- end Itenerary items -->
-
-    <!-- quote -->
-    <div class="itenerary-quote">
-      <h2>Quote</h2>
-
-
-      <table class="quoting" cellspacing="0">
-
-        <!-- Price -->
-        <tr>
-          <td class="description">Average price per person, per day of service</td>
-          <td class="currency">USD</td>
-          <td class="amount"/>0.00</td>
-        </tr>
-        <tr>
-          <td class="description">Average price per person</td>
-          <td class="currency">USD</td>
-          <td class="amount">0.00</td>
-        </tr>
-        <tr class="total-price">
-          <td class="description">Total Price</td>
-          <td class="currency">USD</td>
-          <td class="amount">100,000.00</td>
-        </tr>
-        <tr class="discount">
-          <td class="description">Discount applied off normal rates</td>
-          <td class="currency">USD</td>
-          <td class="amount">0.00</td>
-        </tr>
-
-        <!-- Deposit -->
-        <tr class="deposit" >
-          <td class="description">Deposit Required</td>
-          <td class="currency">USD</td>
-          <td class="amount">10,000.0</td>
-        </tr>
-
-        <tr>
-          <td class="description space" >Deposit received with Thanks </td>
-          <td class="currency space">USD</td>
-          <td class="amount space">0.00</td>
-        </tr>
-        <tr>
-          <td class="description">Deposit received with Thanks (Suzie & John)</td>
-          <td class="currency">USD</td>
-          <td class="amount">0.00</td>
-        </tr>
-        <tr>
-          <td class="description">Deposit received with Thanks</td>
-          <td class="currency">USD</td>
-          <td class="amount">0.00</td>
-        </tr>
-        <tr>
-          <td class="description space-bottom">Deposit received with Thanks (Suzie & John)</td>
-          <td class="currency space-bottom">USD</td>
-          <td class="amount space-bottom">0.00</td>
-        </tr>
-
-      <!-- BALANCE -->
-        <tr class="balance-due">
-          <td class="description">Balance Due</td>
-          <td class="currency">USD</td>
-          <td class="amount">100,000.00</td>
-        </tr>
-      </table>
-
-
+      </main>
     </div>
 
-
-
-    </div>
-  </main>
-</div>
-
-<!-- Accomodation-->
-<div class="page accomodation first">
-
-  <h1 class="page-header">Your Accommodation</h1>
-
-  <main>
-    <div class="container">
-
-    <div class="accom">
-
-    <div class="accom-list">
-        <div class="wrapper">
-
-          <div class="img-block" style="background-image:url('assets/accommodation-1.jpg')"></div>
-          <div class="accom-desc">
-            <h2>Baraza Resort & Spa</h2>
-            <p class="location">Zanzibar</p>
-            <p class="desc">
-              This boutique hotel envelopes a spicy blend of Arabic, Swahili and Indian design, with Swahili arches, intricate hand carved cement décor, beautiful antiques, handmade furniture and intricate brass lanterns; a delight for the senses!
-            </p>
-          </div>
-        </div>
-
-      <div class="wrapper">
-          <div class="img-block" style="background-image:url('assets/accommodation-2.jpg')"></div>
-          <div class="accom-desc">
-            <h2>Baraza Resort & Spa</h2>
-            <p class="location">Zanzibar</p>
-            <p class="desc">
-              This boutique hotel envelopes a spicy blend of Arabic, Swahili and Indian design, with Swahili arches, intricate hand carved cement décor, beautiful antiques, handmade furniture and intricate brass lanterns; a delight for the senses!
-            </p>
-          </div>
-        </div>
-
-
-        <div class="wrapper">
-          <div class="img-block" style="background-image:url('assets/accommodation-3.jpg')"></div>
-          <div class="accom-desc">
-            <h2>Baraza Resort & Spa</h2>
-            <p class="location">Zanzibar</p>
-            <p class="desc">
-              This boutique hotel envelopes a spicy blend of Arabic, Swahili and Indian design, with Swahili arches, intricate hand carved cement décor, beautiful antiques, handmade furniture and intricate brass lanterns; a delight for the senses!
-            </p>
-          </div>
-        </div>
-
-        <div class="wrapper">
-          <div class="img-block" style="background-image:url('assets/accommodation-4.jpg')"></div>
-          <div class="accom-desc">
-            <h2>Baraza Resort & Spa</h2>
-            <p class="location">Zanzibar</p>
-            <p class="desc">
-              This boutique hotel envelopes a spicy blend of Arabic, Swahili and Indian design, with Swahili arches, intricate hand carved cement décor, beautiful antiques, handmade furniture and intricate brass lanterns; a delight for the senses!
-            </p>
-          </div>
-        </div>
-
-        <div class="wrapper">
-          <div class="img-block" style="background-image:url('assets/accommodation-5.jpg')"></div>
-          <div class="accom-desc">
-            <h2>Baraza Resort & Spa</h2>
-            <p class="location">Zanzibar</p>
-            <p class="desc">
-              This boutique hotel envelopes a spicy blend of Arabic, Swahili and Indian design, with Swahili arches, intricate hand carved cement décor, beautiful antiques, handmade furniture and intricate brass lanterns; a delight for the senses!
-            </p>
-          </div>
-        </div>
-
-        <div class="wrapper">
-          <div class="img-block" style="background-image:url('assets/accommodation-6.jpg')"></div>
-          <div class="accom-desc">
-            <h2>Baraza Resort & Spa</h2>
-            <p class="location">Zanzibar</p>
-            <p class="desc">
-              This boutique hotel envelopes a spicy blend of Arabic, Swahili and Indian design, with Swahili arches, intricate hand carved cement décor, beautiful antiques, handmade furniture and intricate brass lanterns; a delight for the senses!
-            </p>
-          </div>
-        </div>
-
-      </div>
-      </div>
-
-
-      <div class="add-ons">
-        <h2>Inclusions</h2>
-
-        <p class="inclusion-item">
-          <b>Included at Sayari Camp:</b> accommodation, all meals (inc bush picnics and sundowners), all drinks (except champagne, cellar wines, premium brand spirits), TANAPA camping fees, laundry service, shared game drives - unless otherwise stated, short walking safaris, transfers to/from nearest airstrip
-        </p>
-
-        <p class="inclusion-item">
-          <b>Included at Sayari Camp:</b> accommodation, all meals (inc bush picnics and sundowners), all drinks (except champagne, cellar wines, premium brand spirits), TANAPA camping fees, laundry service, shared game drives - unless otherwise stated, short walking safaris, transfers to/from nearest airstrip
-        </p>
-
-        <p class="inclusion-item">
-          <b>Included at Sayari Camp:</b> accommodation, all meals (inc bush picnics and sundowners), all drinks (except champagne, cellar wines, premium brand spirits), TANAPA camping fees, laundry service, shared game drives - unless otherwise stated, short walking safaris, transfers to/from nearest airstrip
-        </p>
-
-        <p class="inclusion-item">
-          <b>Included at Sayari Camp:</b> accommodation, all meals (inc bush picnics and sundowners), all drinks (except champagne, cellar wines, premium brand spirits), TANAPA camping fees, laundry service, shared game drives - unless otherwise stated, short walking safaris, transfers to/from nearest airstrip
-        </p>
-
-        <h2>Exclusions</h2>
-        <p class="exclusion-item">International travel, Tourist visas, Drinks and meals unless specified in inclusions, General Travel Insurance (it is strongly recommended not to travel without comprehensive travel and medical insurance), Tipping and gratuities (please read the Important Information for your Safari document for more info).</p>
-
-      </div>
-
-
-    </div>
-  </main>
-</div>
-
-
-<!-- Contact-->
-<div class="page contact">
-
-  <h1 class="page-header">Contact Information</h1>
-
-  <main>
-    <div class="container">
-
-      <div class="contact-block">
+     <!-- Contact-->
+     <div class="page contact">
+      <h1 class="page-header">Contact Information</h1>
+      <main>
+        <div class="container">
+        
+           <div class="contact-block">
         <p class="heading">Kenya</p>
         <div class="details">
+          <!-- office hours -->
           <p class="field">Office Hours</p>
-          <p class="value">+27 21 418 1515</p>
-          <br>
+          <p class="value">+254 702 926 274</p>
+          <br><!-- after hours -->
           <p class="field">After Hours</p>
-          <p class="value">+27 21 418 1515</p>
-          <br>
-          <p class="field">Alternate After Hours</p>
-          <p class="value">+27 21 418 1515</p>
-        </div>
-      </div>
-
-      <div class="contact-block">
-        <p class="heading">Zambia & Zimbabwe</p>
-        <div class="details">
-          <p class="field">Office Hours</p>
-          <p class="value">+27 21 418 1515</p>
-          <br>
-          <p class="field">After Hours</p>
-          <p class="value">+27 21 418 1515</p>
-          <br>
-          <p class="field">Alternate After Hours</p>
-          <p class="value">+27 21 418 1515</p>
-          <br>
-        </div>
-      </div>
-
-      <div class="contact-block">
-        <p class="heading">South Africa</p>
-        <div class="details">
-          <p class="field">Office Hours</p>
-          <p class="value">+27 21 418 1515</p>
-          <br>
-          <p class="field">After Hours</p>
-          <p class="value">+27 21 418 1515</p>
-          <br>
-          <p class="field">Alternate After Hours</p>
-          <p class="value">+27 21 418 1515</p>
-          <br>
-        </div>
-      </div>
-
-
-      <h2 class="sub-header">True Africa - The Safari Company</h2>
-
-      <div class="contact-block">
-        <p class="heading">Cape Town Office</p>
-        <div class="details">
-          <p class="field">Office Hours</p>
-          <p class="value">+27 21 418 1515</p>
-          <br>
-          <p class="field">Email</p>
-          <p class="value">info@trueafrica.com</p>
-          <br>
-          <p class="field">After Hours (Mobile)</p>
-          <p class="value">+27 82 387 2717</p>
+          <p class="value">+254 790 406 230</p>
+          <br>            <!-- after hours -->
+          <p class="field">Alternative After Hours</p>
+          <p class="value">+27 72 710 4045</p>
+          <br></div></div>
+        <h2 class="sub-header">True Africa - The Safari Company</h2>
+        <div class="contact-block">
+          <p class="heading">Cape Town Office</p>
+          <div class="details">
+            <p class="field">Office Hours</p>
+            <p class="value">+27 21 418 1515</p>
+            <br>
+            <p class="field">Email</p>
+            <p class="value">info@trueafrica.com</p>
+            <br>
+            <p class="field">After Hours (Mobile)</p>
+            <p class="value">+27 82 387 2717</p>
+          </div>
+          <p class="aside">Our office is open Monday to Friday between 08:30 to 17:00, Standard South African Time (GMT +2 Hours). During weekends or after office hours, please contact us by mobile phone (call or SMS) rather than contacting the office line or emailing.</p>
         </div>
 
-        <p class="aside">Our office is open Monday to Friday between 08:30 to 17:00, Standard South African Time (GMT +2 Hours). During weekends or after office hours, please contact us by mobile phone (call or SMS) rather than contacting the office line or emailing.</p>
-      </div>
+          <div class="info-block">
+            <img src="https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/info%402x.png?alt=media&token=32aca098-eb54-4b6b-a7fd-494cc547daa2" alt="" width="24" height="24">
+            <p>Please read your <em>Important Info for your Safari</em> brochure for further information about tipping, weather, visas, vaccines, what to pack and more.</p>
+          </div>
 
-      <div class="info-block">
-
-        <img src="assets/info@2x.png" alt="" width="24" height="24">
-        <p>Please read your <em>Important Info for your Safari</em> brochure for further information about tipping, weather, visas, vaccines, what to pack and more.</p>
-      </div>
-
+        </div>
+      </main>
     </div>
-  </main>
-</div>
+    <footer id="pageFooter">
+      
+  <p>True Africa - The Safari Company</p>
+  <p>www.trueafrica.com</p>
+  <p>info@trueafrica.com</p>
+      
+    </footer>
+    <div id="pageFooter-first"></div>
 
 <script>
-
-
-
+$(function(){
 // itenerary-items
 // -------------------------
 var height = 0;
+var heightThreshold = 600;
 var count = 0;
 $( ".itenerary-items li" ).each(function( index ) {
-  height =  height + $(this).height() ;
+  height =  height + $(this).outerHeight();
+  if (count > 0) heightThreshold = 650;
 
-  if (height > 400) {
+  if (height > heightThreshold) {
     count ++;
 
-    var copied = $(this).nextAll().detach();
+    var copied = $(this).nextAll().addBack().detach();
     var ul =  $('.page.itenerary.first');
-    var copyUl = ul.clone().removeClass('page first').empty().append(copied);
-    var test = $('<div class="page itenerary appended-' + count + '"><main><div class="container border-break"><div class="spacer"></div><ul class="itenerary-items copy-here'+ count +'"></ul></div></div></main>');
+    //var copyUl = ul.clone().removeClass('page first').empty().append(copied);
+    var test = $('<div class="page itenerary appended-' + count + '"><main><div class="container border-break"><div class="spacer"></div><ul class="itenerary-items copy-here'+ count +'"></ul></div></div></main></div>');
 
     $('.page.itenerary').last().after(test);
-    $('.copy-here'+ count).append(copyUl.removeClass('.first'));
+    //$('.copy-here'+ count).append(copyUl.removeClass('.first'));
+    $('.copy-here'+ count).append(copied);
 
     // append quote to end
      $('.itenerary-quote').insertAfter($('.copy-here'+ count).last());
-     height = 0;
+
+     // reset height to that of current item
+     height = $(this).outerHeight();
   }
 
 });
@@ -526,26 +328,68 @@ $( ".itenerary-items li" ).each(function( index ) {
 // -------------------------
 var accomCount = 0;
 
+var accomHeight = 0;
+
 // every 4th element
-$( ".accom-list .wrapper:nth-child(4)" ).each(function( index ) {
+$( ".accom-list .wrapper" ).each(function( index ) {
+  accomHeight = accomHeight + $(this).height() ;
 
-    accomCount ++;
+  if (accomHeight > 500) {
+    accomCount++;
+  var copied = $(this).nextAll().detach();
+  var ul =  $('.page.accomodation.first');
+  var copyUl = ul.clone().removeClass('page first').empty().append(copied);
+  var test = $('<div class="page accomodation appended-' + accomCount + '"><main><div class="container"><div class="accom-list accom-copy-here'+ accomCount +'"></div></div></div></main>');
 
-    var copied = $(this).nextAll().detach();
-    var ul =  $('.page.accomodation.first');
-    var copyUl = ul.clone().removeClass('page first').empty().append(copied);
-    var test = $('<div class="page accomodation appended-' + accomCount + '"><main><div class="container border-break"><div class="accom-list accom-copy-here'+ accomCount +'"></div></div></div></main>');
+  $('.page.accomodation').last().after(test);
+  $('.accom-copy-here'+ accomCount).append(copyUl.removeClass('accomodation.first'));
+  accomHeight = 0;
+  }
 
-    $('.page.accomodation').last().after(test);
-    $('.accom-copy-here'+ accomCount).append(copyUl.removeClass('accomodation.first'));
 
-    $('.add-ons').insertAfter($('.accom-copy-here'+ accomCount).last());
+console.log(accomCount);
 
 });
 
+$('.add-ons').insertAfter($('.accom-copy-here'+ accomCount).last());
 
+// if inclusion + exclusions are too big
+// ---------------------------------
+console.log(accomHeight);
+var addOnsHeight = $('.add-ons').height();
+var pageAccomLast = $('.page.accomodation').last().height();
+var lastaccomPage = $('.page.accomodation ').last();
+var addonsThreshold = 610;
+if( lastaccomPage.hasClass('first') ) addonsThreshold = 570;
+if (accomHeight + addOnsHeight > addonsThreshold) {
+  // create new page
+  var newAddonPage = $('<div class="page accomodation"><main><div class="container "><div class="spacer"></div><div class="move-addons-here"></div></div></main></div>');
+  // Move to new page
+  var addOns = $('.add-ons').detach();
+  lastaccomPage.after(newAddonPage);
+  $('.move-addons-here').append(addOns);
+}
+
+
+// If QUOTE + ITENERary ARE TOO big
+// ---------------------------------
+var lastIteneraryPage = $('.page.itenerary').last();
+var quoteThreshold = 610;
+if( lastIteneraryPage.hasClass('first') ) quoteThreshold = 570;
+var lastIteneraryItemsHeight = lastIteneraryPage.find('.itenerary-items').height();
+var quotHeight = $('.itenerary-quote').outerHeight();
+var pageHeight = 661;
+var newPage = $('<div class="page itenerary quote-append"><main><div class="container border-break"><div class="spacer"></div><div class="move-quote-here"></div></div></main></div>');
+
+if (lastIteneraryItemsHeight + quotHeight > quoteThreshold) {
+
+    var quote = $('.itenerary-quote').detach();
+    lastIteneraryPage.after(newPage);
+    $('.move-quote-here').append(quote);
+}
+});
 </script>
 
+    </body>
 
-</body>
-</html>
+    </html>
