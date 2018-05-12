@@ -1,0 +1,728 @@
+/* :: GENERAL
+--------------------*/
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat-regular-webfont.woff2') format('woff2'), url('../fonts/montserrat-regular-webfont.woff') format('woff'), url('../fonts/montserrat-regular-webfont.ttf') format('truetype'), url('../fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratitalic';
+    src: url('../fonts/Montserrat-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+
+    font-family: 'MontserratSemiBoldItalic';
+    src: url('../fonts/Montserrat-SemiBoldItalic.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/Montserrat-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'old_standard_ttitalic';
+    src: url('../fonts/oldstandard-italic-webfont.eot');
+    src: url('../fonts/oldstandard-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/oldstandard-italic-webfont.woff2') format('woff2'), url('../fonts/oldstandard-italic-webfont.woff') format('woff'), url('../fonts/oldstandard-italic-webfont.ttf') format('truetype'), url('../fonts/oldstandard-italic-webfont.svg#old_standard_ttitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'georgia';
+    src: url('../fonts/Georgia Regular font.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'georgiabold';
+    src: url('../fonts/georgia bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'georgiabolditalic';
+    src: url('../fonts/georgia bold italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'georgiaitalic';
+    src: url('../fonts/Georgia-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 612px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.page {
+    width: 612px;
+    height: 661px;
+    position: relative;
+    display: block;
+}
+
+@media print {
+    @page {
+        size: letter;
+    }
+}
+
+/* HEADER */
+
+header {
+    height: 170px;
+}
+header img {
+    display: block;
+    margin: auto;
+    padding-top: 35px
+}
+h1.page-header {
+    position: relative;
+    margin: 12px 0px 0px 0px;
+    color: #373737;
+    font-family: 'georgiaitalic';
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    /* line-height: 1; */
+}
+h1.page-header:after {
+    content: "";
+    position: absolute;
+    width: 73px;
+    height: 1px;
+    background-color: #e0e0e0;
+    left: 272px;
+    bottom: -9px;
+}
+p.subtitle {
+    font-weight: normal;
+    text-align: center;
+    font-family: "montserratregular";
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    color: #373737;
+    text-transform: uppercase;
+    margin: 15px 0px 15px 0px;
+}
+hr {
+    border-color: #e0e0e0;
+    border-width: 1px;
+    width: 550px;
+    display: block;
+    margin: auto;
+}
+
+/* CONTAINER */
+
+.container {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 550px;
+    overflow: auto;
+    height: auto;
+}
+
+/* FRONT PAGE */
+
+.front-page header {
+    height: 70px;
+}
+.front-page .logo {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 57px;
+}
+.front-page .logo img {
+    padding: 0px
+}
+.front-page main {
+    display: block;
+    margin: auto;
+    height: 530px;
+    width: 550px;
+    border-top: 2px solid #AC452F;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.front-page main .overlay {
+    display: block;
+    margin: auto;
+    margin-top: 31px;
+    width: 483px;
+    height: 189px;
+    background-color: rgba(172, 69, 47, 0.5);
+    position: relative;
+}
+.front-page main .overlay p.pretext {
+    font-family: "montserratregular";
+    letter-spacing: 0.8px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    padding-top: 36px;
+    margin: 0px;
+}
+.front-page main .overlay h1 {
+    font-family: 'georgiabolditalic';
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin: 0px;
+    padding-top: 11px;
+    width: 410px;
+    margin: auto;
+}
+.front-page main .overlay p.date {
+    font-family: "montserratregular";
+    letter-spacing: 0.8px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    padding-top: 17px;
+    margin: 0px;
+}
+.front-page footer p.quote {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 19px;
+    font-family: 'georgiaitalic';
+    font-size: 9px;
+    color: #373737
+}
+.front-page footer p.author {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 8px;
+    font-family: "montserratsemibold";
+    font-size: 9px;
+    color: #373737;
+    letter-spacing: 0.6px;
+}
+/* SECOND PAGE */
+
+.destinations main {
+    padding-bottom: 15px;
+}
+.destinations .img-block {
+    width: 270px;
+    height: 180px;
+    float: left;
+    margin-bottom: 7px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.destinations .img-block:nth-of-type(even) {
+    margin-left: 10px;
+}
+.destinations .img-block .gradient {
+    width: 100%;
+    height: 180px;
+    position: relative;
+    background-image: url('../assets/gradient.png')
+}
+.destinations .img-block p.caption {
+    position: absolute;
+    font-family: "montserratregular";
+    color: #fff;
+    text-align: center;
+    font-size: 8px;
+    bottom: 12px;
+    width: 100%;
+    margin: 0px;
+}
+
+/* ITENERARY */
+
+.itenerary main {
+    width: 550px;
+    display: block;
+    margin: auto;
+    padding: 0px;
+}
+.page.itenerary .border-break {
+    border-top: 1px solid #e0e0e0;
+}
+.page.itenerary .line {
+    height: 1px;
+    width: 550px;
+    display: block;
+    margin: auto;
+    background-color: #e0e0e0;
+}
+.itenerary .sidebar {
+    width: 135px;
+    display: inline-block;
+    padding: 0px;
+    padding-top: 20px;
+    margin: 0px;
+}
+.itenerary .spacer {
+    width: 135px;
+    display: inline-block;
+    padding: 0px;
+    padding-top: 20px;
+    margin: 0px;
+}
+.itenerary .sidebar li {
+    list-style: none;
+}
+.itenerary .sidebar li p {
+    padding: 0px;
+    margin: 0px;
+    font-family: "montserratregular";
+}
+.itenerary .sidebar li p.title {
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #AC452F;
+    padding-bottom: 3px;
+}
+.itenerary .sidebar li p.field {
+    font-size: 9px;
+    color: #373737;
+    padding-bottom: 12px;
+    line-height: 13px;
+}
+.itenerary .sidebar li p.title.ages {
+    font-size: 7px;
+    color: #373737;
+    font-style: italic;
+}
+ul.itenerary-items {
+    display: inline-block;
+    vertical-align: top;
+    width: 410px;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 10px
+}
+ul.itenerary-items li {
+    display: block;
+    border-bottom: solid 1px #e0e0e0;
+    padding-bottom: 5px;
+}
+ul.itenerary-items li .legend {
+    display: inline-block;
+    width: 60px;
+}
+ul.itenerary-items li .legend .day {
+    background-color: #AC452F;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "montserratregular";
+    font-size: 9px;
+    height: 15px;
+    line-height: 16px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    width: 60px;
+}
+ul.itenerary-items li .legend .date {
+    font-family: "montserratregular";
+    font-size: 7px;
+    text-align: center;
+    margin: 0px;
+    color: #373737;
+}
+ul.itenerary-items li .description {
+    display: inline-block;
+    width: 329px;
+    vertical-align: top;
+    width: 340px;
+    margin-top: 10px;
+
+}
+
+ul.itenerary-items li .description p {
+    font-family: "montserratregular";
+    font-size: 9px;
+    line-height: 13px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 14px;
+    color: #373737;
+    margin-bottom: 4px;
+}
+ul.itenerary-items .description p.airport {
+    font-family: "montserratregular";
+    color: #373737;
+    background-image: url('../assets/comment-flight@2x.png');
+    background-repeat: no-repeat;
+    background-position: 2px left;
+    background-size: 13px;
+    padding: 2px 0px 2px 28px;
+    font-size: 8px;
+}
+ul.itenerary-items .description p.activity {
+    font-family: "montserratregular";
+    color: #373737;
+    background-image: url('../assets/comment-activity@2x.png');
+    background-repeat: no-repeat;
+    background-position: 0% 1px;
+    background-size: 13px;
+    padding: 2px 0px 2px 28px;
+    font-size: 8px;
+}
+ul.itenerary-items .description p.info {
+    font-family: "montserratregular";
+    color: #373737;
+    background-image: url('../assets/comment-info@2x.png');
+    background-repeat: no-repeat;
+    background-position: 0% 1px;
+    background-size: 13px;
+    padding: 2px 0px 2px 28px;
+    font-size: 8px;
+}
+
+/* QUOTE */
+
+.itenerary-quote {
+    width: 410px;
+    float: right;
+    padding-top: 20px;
+}
+.itenerary-quote h2 {
+    font-size: 20px;
+    color: #AC452F;
+    line-height: 20px;
+    font-family: "montserratregular";
+}
+table.quoting td {
+    font-family: "montserratregular";
+    font-size: 9px;
+    line-height: 13px;
+    color: #373737;
+    height: 15px;
+}
+table.quoting td.description {
+    width: 260px;
+    padding-left: 5px;
+}
+table.quoting td.space-bottom {
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+table.quoting td.currency {
+    width: 40px;
+}
+table.quoting td.amount {
+    width: 90px;
+    text-align: right;
+    padding-right: 5px;
+}
+table.quoting tr.total-price {
+    background-color: #a3a3a3;
+    color: #fff;
+    height: 21px;
+    font-size: 13px;
+}
+table.quoting tr.total-price td {
+    font-size: 13px;
+    color: #fff;
+    line-height: 21px;
+}
+table.quoting tr.discount {
+    color: #AC452F;
+    height: 21px;
+}
+table.quoting tr.discount td {
+    margin-bottom: 15px;
+    color: #AC452F;
+    font-style: italic;
+    height: 30px;
+}
+table.quoting tr.deposit {
+    background-color: #AC452F;
+    color: #fff;
+    height: 21px;
+    font-size: 13px;
+}
+table.quoting tr.deposit td {
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 19px;
+    line-height: 21px;
+}
+table.quoting tr.deposit td {
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 19px;
+}
+table.quoting tr td.space {
+    /* font-size: 13px; */
+    /* color: #fff; */
+
+    padding-top: 15px;
+    margin-top: 15px;
+}
+table.quoting tr.balance-due {
+    height: 21px;
+    font-size: 13px;
+}
+table.quoting tr.balance-due td {
+    font-size: 13px;
+    color: #AC452F;
+    margin-bottom: 19px;
+    line-height: 21px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 2px;
+}
+/* Accomodation */
+
+.accom {
+    padding-top: 40px;
+}
+.page.accomodation .border-break {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 15px;
+}
+.accomodation .img-block {
+    width: 250px;
+    height: 130px;
+    display: inline-block;
+    margin-right: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 9px;
+}
+
+.accomodation .accom-desc {
+    width: 270px;
+    height: 130px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+.accomodation .accom-desc h2 {
+    font-family:'georgiaitalic';
+    font-size: 14px;
+    color: #373737;
+    margin: 0px;
+    font-weight: 400;
+}
+.accomodation .accom-desc p.location {
+    font-family: "montserratregular";
+    font-size: 9px;
+    line-height: 13px;
+    color: #373737;
+    margin: 0px;
+}
+.accomodation .accom-desc p.desc {
+    font-family: "montserratregular";
+    font-size: 7px;
+    line-height: 10px;
+    color: #373737;
+    margin: 0px;
+    margin-top: 10px
+}
+
+/* inclusions */
+
+.add-ons {
+    border-top: 1px solid #e0e0e0;
+}
+.add-ons h2 {
+    margin: 0px;
+    color: #AC452F;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "montserratregular";
+    margin-top: 18px;
+    margin-bottom: 14px;
+}
+.add-ons p {
+    color: #AC452F;
+    font-size: 8px;
+    line-height: 12px;
+    font-family: "montserratregular";
+    color: #373737;
+}
+
+/* CONTACT */
+.contact{
+    height:500px;
+}
+.contact-block {
+    width: 100%;
+    background-color: rgba(172, 69, 47, 0.07);
+    margin-bottom: 1px;
+    padding-bottom: 10px;
+}
+.contact-block:first-of-type {
+    margin-top: 35px;
+}
+.contact-block p {
+    margin: 0;
+    padding: 0px;
+    padding-left: 16px;
+}
+.contact-block p.heading {
+    line-height: 12px;
+    font-size: 9px;
+    color: #373737;
+    font-family: "montserratsemibold";
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.contact-block .details {
+    display: inline-block;
+    width: 236px;
+}
+.contact-block p.field {
+    display: inline-block;
+    width: 90px;
+    line-height: 10px;
+    font-size: 8px;
+    color: #373737;
+    font-family: "montserratregular";
+}
+.contact-block p.value {
+    display: inline-block;
+    width: 100px;
+    line-height: 12px;
+    font-size: 8px;
+    color: #373737;
+    font-family: "montserratregular";
+}
+.contact-block p.aside {
+    display: inline-block;
+    width: 280px;
+    line-height: 12px;
+    font-size: 8px;
+    color: #373737;
+    font-family: "montserratregular";
+    vertical-align: top;
+    padding-left: 0PX;
+    padding-top: 5px;
+}
+.contact h2.sub-header {
+    margin-top: 15px;
+    font-family: 'georgiaitalic';
+    color: #373737;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+.contact .info-block {
+    height: 36px;
+    border: 1px solid #AC452F;
+    margin-top: 10px;
+    padding-top: 5px;
+    /* box-sizing: border-box; */
+}
+.contact .info-block img {
+    display: inline-block;
+    margin-left: 19px;
+    margin-top: -7px;
+    vertical-align: middle;
+}
+.contact .info-block p {
+    font-family: "montserratregular";
+    display: inline-block;
+    width: 462px;
+    color: #AC452F;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
+    vertical-align: middle;
+    padding-top: 2px;
+}
+.contact .info-block p em {
+    font-family: "MontserratSemiBoldItalic";
+}
+
+footer {
+    height: 50px;
+    border-top: 1px solid #AC452F;
+    width: 550px;
+    left: 31px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+footer p{
+    display: inline-block;
+    color: #373737;
+    font-family: "montserratregular";
+    font-size: 7px;
+    font-weight: 300;
+    border-right: 0.5px solid #a3a3a3;
+    margin-top: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: -4px;
+}
+footer p:last-of-type{
+    border-right: none;
+}
+
+
+/* HEADER */
+header{
+
+    height: 90px;
+}
+header img {
+    display: block;
+    margin: auto;
+    padding-top: 35px
+}
+header h1.page-header {
+    position: relative;
+    margin: 12px 0px 0px 0px;
+    color: #373737;
+    font-family: 'georgiaitalic';
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    font-weight: 400;
+}
+header h1.page-header:after {
+    content: "";
+    position: absolute;
+    width: 73px;
+    height: 1px;
+    background-color: #e0e0e0;
+    left: 272px;
+    bottom: -9px;
+}
+header p.subtitle {
+    font-weight: normal;
+    text-align: center;
+    font-family: "montserratregular";
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    color: #373737;
+    text-transform: uppercase;
+    margin: 19px 0px 0px 0px;
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>icn/comment-activity</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icn/comment-activity" fill="#373737" fill-rule="nonzero">
+            <path d="M10,1 C5.03407196,1 1,5.03407196 1,10 C1,14.965928 5.03407196,19 10,19 C14.965928,19 19,14.965928 19,10 C19,5.03407196 14.965928,1 10,1 Z M10,2 C14.4227901,2 18,5.5772099 18,10 C18,14.4227901 14.4227901,18 10,18 C5.5772099,18 2,14.4227901 2,10 C2,5.5772099 5.5772099,2 10,2 Z M9.60869565,5.30434783 L9.60869565,9.60869565 L5.30434783,9.60869565 L5.30434783,10.3913043 L9.60869565,10.3913043 L9.60869565,14.6956522 L10.3913043,14.6956522 L10.3913043,10.3913043 L14.6956522,10.3913043 L14.6956522,9.60869565 L10.3913043,9.60869565 L10.3913043,5.30434783 L9.60869565,5.30434783 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
