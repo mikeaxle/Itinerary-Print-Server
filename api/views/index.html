@@ -1,124 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Document</title>
+  <style>
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <title>Document</title>
-      <style>
+  /* HEADER */
+  header{
+    height: 90px;
+  }
+  header img {
+    display: block;
+    margin: auto;
+    padding-top: 35px
+  }
 
-      /* HEADER */
-      header{
-        height: 90px;
-      }
-      header img {
-        display: block;
-        margin: auto;
-        padding-top: 35px
-      }
+  header h1.page-header {
+    position: relative;
+    margin: 12px 0px 0px 0px;
+    color: #373737;
+    font-family: 'old_standard_ttitalic';
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+  }
+  header h1.page-header:after {
+    content: "";
+    position: absolute;
+    width: 73px;
+    height: 1px;
+    background-color: #e0e0e0;
+    left: 272px;
+    bottom: -9px;
+  }
 
-      header h1.page-header {
-        position: relative;
-        margin: 12px 0px 0px 0px;
-        color: #373737;
-        font-family: 'old_standard_ttitalic';
-        font-size: 24px;
-        font-weight: normal;
-        text-align: center;
-      }
-      header h1.page-header:after {
-        content: "";
-        position: absolute;
-        width: 73px;
-        height: 1px;
-        background-color: #e0e0e0;
-        left: 272px;
-        bottom: -9px;
-      }
+  header p.subtitle {
 
-      header p.subtitle {
+    font-weight: normal;
+    text-align: center;
+    font-family: "montserratregular";
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    color: #373737;
+    text-transform: uppercase;
+    margin: 19px 0px 0px 0px;
+  }
 
-        font-weight: normal;
-        text-align: center;
-        font-family: "montserratregular";
-        font-size: 10px;
-        letter-spacing: 0.8px;
-        color: #373737;
-        text-transform: uppercase;
-        margin: 19px 0px 0px 0px;
-      }
+footer {
+  height: 50px;
+  border-top: 1px solid #B18C51;
+  width: 550px;
+  left: 31px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+footer p{
+  display: inline-block;
+  color: #373737;
+  font-family: "montserratregular";
+  font-size: 7px;
+  font-weight: 300;
+  border-right: 0.5px solid #a3a3a3;
+  margin-top: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: -4px;
+}
+footer p:last-of-type{
+  border-right: none;
+}
 
-    footer {
-      height: 50px;
-      border-top: 1px solid #B18C51;
-      width: 550px;
-      left: 31px;
-      text-align: center;
-      display: block;
-      margin: auto;
-    }
-    footer p{
-      display: inline-block;
-      color: #373737;
-      font-family: "montserratregular";
-      font-size: 7px;
-      font-weight: 300;
-      border-right: 0.5px solid #a3a3a3;
-      margin-top: 15px;
-      padding-right: 5px;
-      padding-left: 5px;
-      margin-right: -4px;
-    }
-    footer p:last-of-type{
-      border-right: none;
-    }
+.add-ons p b {
+  font-family: 'montserratsemibold';
+  font-weight: 400;
+}
+.add-ons b {
+  font-family: 'montserratsemibold';
+  font-weight: 400;
+}
+.add-ons span {
+  font-family: 'montserratsemibold';
+  font-weight: 400;
+}
 
-      </style>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-    </head>
-    <body>
-    <!-- THIRD PAGE -->
-    <header id="pageHeader">
-      <img src="http://itinerary-test.nowboarding.co.za/logo@2x.png" width="180">
-    </header>
-    <div class="page itenerary first">
 
-    <h1 class="page-header">Your Itinerary</h1>
-    <p class="subtitle">8 DAYS</p>
-    <div class="line"></div>
-    <main>
-      <div class="container">
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+</head>
+<body>
 
-        <!-- SIDEBAR -->
-        <ul class="sidebar">
-          <li>
-            <p class="title">Itinerary</p>
-            <p class="field">Faulkner Family Safari </p>
-          </li>
-          <li>
-            <p class="title">Safari Specialist</p>
-            <p class="field">Troy Smith</p>
-          </li>
-          <li>
-            <p class="title">Travel Dates</p>
-            <p class="field">Tue Nov 20 2018 - Tue Nov 27 2018</p>
-          </li>
-          <li>
-            <p class="title">Adults</p>
-            <p class="field">5</p>
-          </li>
-          
-          <li>
-            <p class="title">Status</p>
-            <p class="field">Confirmed</p>
-          </li>
-        </ul>
+<!-- FIRST PAGE -->
+<header id="pageHeader">
+  <img src="http://itinerary-test.nowboarding.co.za/logo-icon@2x.png" width="16">
+</header>
+<div class="page front-page" id="pageContent">
+  <header>
+    <div class="logo">
+      <!-- <img src="assets/logo-icon@2x.png" width="16"> -->
+      <img src="https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/logo%402x.png?alt=media&token=ef6846a7-6d6a-48a2-ad60-fa039dd06dc5" alt="" width="200">
+    </div>
+  </header>
 
-        <!-- ITENERARY ITEMS -->
-    		<ul class="itenerary-items">
-    			
+  <main style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2FEncounter-Mara-Walking-Safari-6R1A4688_highres.jpg?alt=media&token=a4a9552b-b8a4-45b7-8b28-13ef4fc78806')">
+    <div class="overlay">
+      <p class="pretext">SAFARI ITINERARY</p>
+      <h1 class="heading" style="font-family: georgiaitalic !important;">Faulkner Family Safari </h1>
+      <p class="date">Tue Nov 20 2018 – Tue Nov 27 2018</p>
+    </div>
+  </main>
+
+  <footer>
+    <p class="quote">“I never knew of a morning in Africa when I woke up that I was not happy.”</p>
+    <p class="author">ERNEST HEMMINGWAY</p>
+  </footer>
+</div>
+
+
+<!-- SECOND PAGE -->
+<div class="page destinations">
+  <h1 class="page-header">Your Destinations</h1>
+  <p class="subtitle">Kenya</p>
+  <main>
+    <div class="container">
+      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2FLion%20Mum%20and%20Cub.jpg?alt=media&token=07001532-9de4-4818-a753-4370890658fc')">
+        <div class="gradient">
+          <p class="caption">Witness new parenting techniques!</p>
+        </div>
+      </div>
+      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2FGiraffes%20and%20thunderclouds.jpg?alt=media&token=06e3bfc4-9d79-4eeb-a756-0dd93e1a24a7')">
+        <div class="gradient">
+          <p class="caption">The endless plains of Africa</p>
+        </div>
+      </div>
+      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2FAfrican%20sundowners%20and%20Maasai.jpg?alt=media&token=c4c52d97-f5f4-47cf-8e15-8f3ce610a776')">
+        <div class="gradient">
+        <p class="caption">A safari isn't complete without sundowners!</p>
+      </div>
+      </div>
+      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2FElephants.jpg?alt=media&token=28e20144-6f02-4ee9-b73f-58d4ae8c3b2b')">
+        <div class="gradient">
+          <p class="caption">Iconic Africa!</p>
+        </div>
+      </div>
+      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2FGame%20drive%20vehicle%20and%20topi.jpg?alt=media&token=78f7ea99-8c1d-4f66-b196-ad649faf976b')">
+        <div class="gradient">
+          <p class="caption">Game drives at sunset</p>
+        </div>
+      </div>
+      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2FWalking%20safari%20with%20buffalo.jpg?alt=media&token=ab7922a9-d0cf-4a51-a092-f3ecad2825e1')">
+        <div class="gradient">
+          <p class="caption">Experience Africa on foot</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+
+<!-- THIRD PAGE -->
+<div class="page itenerary first">
+
+<h1 class="page-header">Your Itinerary</h1>
+<p class="subtitle">8 DAYS</p>
+<div class="line"></div>
+
+<main>
+  <div class="container">
+
+    <!-- SIDEBAR -->
+    <ul class="sidebar">
+      <li>
+        <p class="title">Itinerary</p>
+        <p class="field">Faulkner Family Safari </p>
+      </li>
+      <li>
+        <p class="title">Safari Specialist</p>
+        <p class="field">Troy Smith</p>
+      </li>
+      <li>
+        <p class="title">Travel Dates</p>
+        <p class="field">Tue Nov 20 2018 - Tue Nov 27 2018</p>
+      </li>
+      <li>
+        <p class="title">Adults</p>
+        <p class="field">5</p>
+      </li>
+      
+      <li>
+        <p class="title">Status</p>
+        <p class="field">Confirmed</p>
+      </li>
+    </ul>
+
+    <!-- ITENERARY ITEMS -->
+		<ul class="itenerary-items">
+			
 
 				 <!-- day + comment -->
 				 <li>
@@ -191,60 +271,121 @@
 					  <p class="airport">Safarilink Flight: 11.00 - 12.20</p> <p class="info">Own onward arrangements, unless otherwise specified</p>
 				 </div>
 			 </li>
-        </ul>
-    		<!-- end Itenerary items -->
+    </ul>
+		<!-- end Itenerary items -->
 
-        <!-- quote -->
-        <div class="itenerary-quote">
-          <h2>Quote</h2>
+    <!-- quote -->
+    <div class="itenerary-quote">
+      <h2>Quote</h2>
 
-          <table class="quoting" cellspacing="0">
+      <table class="quoting" cellspacing="0">
 
-            <!-- Price -->
-            <tr>
-              <td class="description">Average price per person, per day of service</td>
-              <td class="currency">USD</td>
-              <td class="amount"/>443.75</td>
-            </tr>
-            <tr>
-              <td class="description">Average price per person</td>
-              <td class="currency">USD</td>
-              <td class="amount">3,550.00</td>
-            </tr>
-            <tr class="total-price">
-              <td class="description">Total Price</td>
-              <td class="currency">USD</td>
-              <td class="amount">17,750.00</td>
-            </tr>
+        <!-- Price -->
+        <tr>
+          <td class="description">Average price per person, per day of service</td>
+          <td class="currency">USD</td>
+          <td class="amount"/>443.75</td>
+        </tr>
+        <tr>
+          <td class="description">Average price per person</td>
+          <td class="currency">USD</td>
+          <td class="amount">3,550.00</td>
+        </tr>
+        <tr class="total-price">
+          <td class="description">Total Price</td>
+          <td class="currency">USD</td>
+          <td class="amount">17,750.00</td>
+        </tr>
 
-            
+          
 
-            <!-- payments -->
-             <tr>
+        <!-- payments -->
+         <tr>
       <td class="description space" >Payment Recieved Tue Feb 06 2018 </td>
       <td class="currency space">USD</td>
       <td class="amount space">-5,325.00</td>
     </tr>
       
 
-          <!-- BALANCE -->
-            <tr class="balance-due">
-              <td class="description">Balance Due</td>
-              <td class="currency">USD</td>
-              <td class="amount">12,425.00</td>
-            </tr>
-          </table>
-        </div>
-        </div>
-      </main>
+      <!-- BALANCE -->
+        <tr class="balance-due">
+          <td class="description">Balance Due</td>
+          <td class="currency">USD</td>
+          <td class="amount">12,425.00</td>
+        </tr>
+      </table>
     </div>
+    </div>
+  </main>
+</div>
 
-     <!-- Contact-->
-     <div class="page contact">
-      <h1 class="page-header">Contact Information</h1>
-      <main>
-        <div class="container">
+<!-- Accomodation-->
+<div class="page accomodation first">
+
+  <h1 class="page-header">Your Accommodation</h1>
+
+  <main>
+    <div class="container">
+    <div class="accom">
+
+    <div class="accom-list">
+      
+      <div class="wrapper">
+        <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/inventory-images%2FOlolo%20Lodge.jpg?alt=media&token=2b5246c1-9ef2-4954-ba7f-de47dc53ca13')"></div>
+        <div class="accom-desc">
+          <h2>Ololo Lodge </h2>
+          <p class="location">Nairobi</p>
+          <p class="desc">Uniquely located just outside Nairobi National Park, Ololo Lodge is conveniently located to both airports. The warm, cozy lodge is situated on twenty acres of lush gardens, the lodge offers warm hospitality, views of Nairobi National Park (and game drives within) and is just a stone’s throw from anywhere you’d want to visit in Nairobi.</p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/inventory-images%2FEncounter%20Mara.jpg?alt=media&token=43965b64-0b2c-4325-ab65-dc41be1f8efc')"></div>
+        <div class="accom-desc">
+          <h2>Encounter Mara</h2>
+          <p class="location">Greater Maasai Mara</p>
+          <p class="desc">Located in the award-winning Mara Naboisho Conservancy, Encounter Mara offers access to some of the very best (and exclusive) game viewing in the Greater Mara Region. The Conservancy is known for its large elephant herds and is recognized as having some of the highest density of lion in all of Africa! We’d suggest the camp itself is one of the best value properties in East Africa!</p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/inventory-images%2FMara%20House.jpg?alt=media&token=456bcff9-0811-4d32-9705-779439af823e')"></div>
+        <div class="accom-desc">
+          <h2>Mara House</h2>
+          <p class="location">Greater Maasai Mara</p>
+          <p class="desc">Situated in a remote corner of the Mara North Conservancy, Mara House offers the perfect, private safari experience. With your own safari guide and private vehicle (included in the rate), you're free to explore the Conservancy and wider Mara region. With an abundance of wildlife, and an enviable location, Mara House is a great option for families or groups wanting a more private safari experience. </p>
+        </div>
+      </div>
+    </div>
+    </div>
+      <div class="add-ons">
+        <h2>Inclusions</h2>
+
         
+      <p >
+      <b>Included at Ololo Lodge :</b> Accommodation, all meals, local beers and wines; non-alcoholic drinks; airport transfers; game drives in Nairobi National Park, wi-fi.
+      </p>
+      <p >
+      <b>Included at Encounter Mara:</b> Included at Encounter Mara Camp: accommodation, all meals (inc bush picnics and sundowners), all drinks (excluding champagne, cellar wines and premium spirit brands), daily game drives (shared - unless otherwise stated), walking safaris, night game drives in shared vehicle, laundry service and airstrip transfers									
+
+      </p>
+      <p >
+      <b>Included at Mara House:</b> accommodation, all meals (inc bush picnics and sundowners), most drinks (excl cellar wines, champagne and some luxury spirits), Conservancy Fees, laundry, 1x private vehicle and 1x highly qualified guide, walking safaris, night game drives, game drives in the Mara North Conservancy and Lemek Conservancy (or to the Maasai Mara National Reserve - entrance fees extra). We can also organise visits to local schools, villages and trading centre (village visit - US$ 20 per person) or visits to the Ol Chorro Rhino Sanctuary (entrance fees extra) 
+      </p>
+
+        <h2>Exclusions</h2>
+        <p class="exclusion-item">International travel, Tourist visas, Drinks and meals unless specified in inclusions, General Travel Insurance (it is strongly recommended not to travel without comprehensive travel and medical insurance), Tipping and gratuities (please read the Important Information for your Safari document for more info).</p>
+
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- Contact-->
+
+<div class="page contact">
+  <h1 class="page-header">Contact Information</h1>
+  <main>
+    <div class="container">
+    
            <div class="contact-block">
         <p class="heading">Kenya</p>
         <div class="details">
@@ -274,44 +415,51 @@
           <p class="aside">Our office is open Monday to Friday between 08:30 to 17:00, Standard South African Time (GMT +2 Hours). During weekends or after office hours, please contact us by mobile phone (call or SMS) rather than contacting the office line or emailing.</p>
         </div>
 
-          <div class="info-block">
-            <img src="https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/info%402x.png?alt=media&token=32aca098-eb54-4b6b-a7fd-494cc547daa2" alt="" width="24" height="24">
-            <p>Please read your <em>Important Info for your Safari</em> brochure for further information about tipping, weather, visas, vaccines, what to pack and more.</p>
-          </div>
+      <div class="info-block">
+        <img src="https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/info%402x.png?alt=media&token=32aca098-eb54-4b6b-a7fd-494cc547daa2" alt="" width="24" height="24">
+        <p>Please read your <em>Important Info for your Safari</em> brochure for further information about tipping, weather, visas, vaccines, what to pack and more.</p>
+      </div>
 
-        </div>
-      </main>
     </div>
-    <footer id="pageFooter">
-      
+  </main>
+</div>
+
+<footer id="pageFooter">
+  
   <p>True Africa - The Safari Company</p>
   <p>www.trueafrica.com</p>
   <p>info@trueafrica.com</p>
       
-    </footer>
-    <div id="pageFooter-first"></div>
+</footer>
+<div id="pageFooter-first"></div>
+
 
 <script>
 $(function(){
+
 // itenerary-items
 // -------------------------
 var height = 0;
 var heightThreshold = 600;
 var count = 0;
+var quoteHeightfirst = $('.itenerary-quote').height();
+
 $( ".itenerary-items li" ).each(function( index ) {
-  height =  height + $(this).outerHeight();
+  height =  height + $(this).outerHeight() ;
   if (count > 0) heightThreshold = 650;
 
-  if (height > heightThreshold) {
+  // REMOVED: if (height + quoteHeightfirst > 540) {
+  // Q: we check for the quote height and split it up later tho
+  if (height  > heightThreshold) {
     count ++;
 
     var copied = $(this).nextAll().addBack().detach();
     var ul =  $('.page.itenerary.first');
     //var copyUl = ul.clone().removeClass('page first').empty().append(copied);
-    var test = $('<div class="page itenerary appended-' + count + '"><main><div class="container border-break"><div class="spacer"></div><ul class="itenerary-items copy-here'+ count +'"></ul></div></div></main></div>');
+    var test = $('<div class="page itenerary appended-' + count + '"><main><div class="container border-break"><div class="spacer"></div><ul class="itenerary-items copy-here'+ count +'"></ul></div></div></main>');
 
     $('.page.itenerary').last().after(test);
-    //$('.copy-here'+ count).append(copyUl.removeClass('.first'));
+    //$('.copy-here'+ count).append(copyUl.removeClass('first'));
     $('.copy-here'+ count).append(copied);
 
     // append quote to end
@@ -322,6 +470,8 @@ $( ".itenerary-items li" ).each(function( index ) {
   }
 
 });
+
+
 
 
 // Accomodation
@@ -370,8 +520,7 @@ if (accomHeight + addOnsHeight > addonsThreshold) {
   $('.move-addons-here').append(addOns);
 }
 
-
-// If QUOTE + ITENERary ARE TOO big
+// if quote + itenerary are too big
 // ---------------------------------
 var lastIteneraryPage = $('.page.itenerary').last();
 var quoteThreshold = 610;
@@ -387,9 +536,10 @@ if (lastIteneraryItemsHeight + quotHeight > quoteThreshold) {
     lastIteneraryPage.after(newPage);
     $('.move-quote-here').append(quote);
 }
+
 });
 </script>
 
-    </body>
 
-    </html>
+</body>
+</html>

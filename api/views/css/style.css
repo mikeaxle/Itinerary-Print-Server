@@ -317,6 +317,7 @@ hr {
 ul.itenerary-items {
     display: inline-block;
     vertical-align: top;
+    /* width was originally 410 */
     width: 400px;
     padding: 0px;
     margin: 0px;

@@ -318,6 +318,7 @@ hr {
 ul.itenerary-items {
     display: inline-block;
     vertical-align: top;
+    /* width was originally 410 */
     width: 400;
     padding: 0px;
     margin: 0px;
@@ -515,7 +516,7 @@ table.quoting tr.balance-due td {
 }
 
 .accomodation .accom-desc {
-    width: 270px;
+    width: 260px;
     height: 130px;
     display: inline-block;
     vertical-align: top;
