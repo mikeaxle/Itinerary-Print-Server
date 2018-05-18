@@ -356,7 +356,6 @@ ul.itenerary-items li .description {
     display: inline-block;
     width: 329px;
     vertical-align: top;
-    width: 340px;
     margin-top: 10px;
 }
 
@@ -515,7 +514,7 @@ table.quoting tr.balance-due td {
 
 .accomodation .accom-desc {
     width: 260px;
-    height: 130px;
+    /* height: 130px; */
     display: inline-block;
     vertical-align: top;
     margin-top: 5px;
