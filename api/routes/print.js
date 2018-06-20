@@ -46,7 +46,7 @@ module.exports = function(app) {
     try {
       pdf.create(html, options).toStream(function(err, stream) {
         stream.pipe(res);
-        // console.log(res)
+
       });
     } catch (error) {
       console.log(error);
