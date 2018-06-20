@@ -1,213 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Document</title>
-  <style>
 
-  /* HEADER */
-  header{
-    height: 90px;
-  }
-  header img {
-    display: block;
-    margin: auto;
-    padding-top: 35px
-  }
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <title>Document</title>
+      <style>
 
-  header h1.page-header {
-    position: relative;
-    margin: 12px 0px 0px 0px;
-    color: #373737;
-    font-family: 'old_standard_ttitalic';
-    font-size: 24px;
-    font-weight: normal;
-    text-align: center;
-  }
-  header h1.page-header:after {
-    content: "";
-    position: absolute;
-    width: 73px;
-    height: 1px;
-    background-color: #e0e0e0;
-    left: 272px;
-    bottom: -9px;
-  }
+      /* HEADER */
+      header{
+        height: 90px;
+      }
+      header img {
+        display: block;
+        margin: auto;
+        padding-top: 35px
+      }
 
-  header p.subtitle {
+      header h1.page-header {
+        position: relative;
+        margin: 12px 0px 0px 0px;
+        color: #373737;
+        font-family: 'old_standard_ttitalic';
+        font-size: 24px;
+        font-weight: normal;
+        text-align: center;
+      }
+      header h1.page-header:after {
+        content: "";
+        position: absolute;
+        width: 73px;
+        height: 1px;
+        background-color: #e0e0e0;
+        left: 272px;
+        bottom: -9px;
+      }
 
-    font-weight: normal;
-    text-align: center;
-    font-family: "montserratregular";
-    font-size: 10px;
-    letter-spacing: 0.8px;
-    color: #373737;
-    text-transform: uppercase;
-    margin: 19px 0px 0px 0px;
-  }
+      header p.subtitle {
 
-footer {
-  height: 50px;
-  border-top: 1px solid #B18C51;
-  width: 550px;
-  left: 31px;
-  text-align: center;
-  display: block;
-  margin: auto;
-}
-footer p{
-  display: inline-block;
-  color: #373737;
-  font-family: "montserratregular";
-  font-size: 7px;
-  font-weight: 300;
-  border-right: 0.5px solid #a3a3a3;
-  margin-top: 15px;
-  padding-right: 5px;
-  padding-left: 5px;
-  margin-right: -4px;
-}
-footer p:last-of-type{
-  border-right: none;
-}
-.add-ons p b {
-  font-family: 'montserratsemibold';
-  font-weight: 400;
-}
-.add-ons b {
-  font-family: 'montserratsemibold';
-  font-weight: 400;
-}
-.add-ons span {
-  font-family: 'montserratsemibold';
-  font-weight: 400;
-}
+        font-weight: normal;
+        text-align: center;
+        font-family: "montserratregular";
+        font-size: 10px;
+        letter-spacing: 0.8px;
+        color: #373737;
+        text-transform: uppercase;
+        margin: 19px 0px 0px 0px;
+      }
 
+    footer {
+      height: 50px;
+      border-top: 1px solid #B18C51;
+      width: 550px;
+      left: 31px;
+      text-align: center;
+      display: block;
+      margin: auto;
+    }
+    footer p{
+      display: inline-block;
+      color: #373737;
+      font-family: "montserratregular";
+      font-size: 7px;
+      font-weight: 300;
+      border-right: 0.5px solid #a3a3a3;
+      margin-top: 15px;
+      padding-right: 5px;
+      padding-left: 5px;
+      margin-right: -4px;
+    }
+    footer p:last-of-type{
+      border-right: none;
+    }
 
-  </style>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-</head>
-<body>
+      </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    </head>
+    <body>
+    <!-- THIRD PAGE -->
+    <header id="pageHeader">
+      <img src="pdf-img/logo@2x.png" width="180">
+    </header>
+    <div class="page itenerary first">
 
-<!-- FIRST PAGE -->
-<header id="pageHeader">
-  <img src="http://itinerary-test.nowboarding.co.za/logo-icon@2x.png" width="16">
-</header>
-<div class="page front-page" id="pageContent">
-  <header>
-    <div class="logo">
-      <!-- <img src="assets/logo-icon@2x.png" width="16"> -->
-      <img src="https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/logo%402x.png?alt=media&token=ef6846a7-6d6a-48a2-ad60-fa039dd06dc5" alt="" width="200">
-    </div>
-  </header>
+    <h1 class="page-header">Your Itinerary</h1>
+    <p class="subtitle">14 DAYS</p>
+    <div class="line"></div>
+    <main>
+      <div class="container">
 
-  <main style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2FOkavango%20Dekta%20hero.jpg?alt=media&token=eef6cafc-523a-40d6-9bde-43c393d36462')">
-    <div class="overlay">
-      <p class="pretext">SAFARI ITINERARY</p>
-      <h1 class="heading" style="font-family: georgiaitalic !important;">Corne and Friends - African Adventure (Option 2)</h1>
-      <p class="date">Mon Mar 11 2019 – Mon Mar 18 2019</p>
-    </div>
-  </main>
+        <!-- SIDEBAR -->
+        <ul class="sidebar">
+          <li>
+            <p class="title">Itinerary</p>
+            <p class="field">Deena and Friends Tanzanian Safari + Beach Vacation</p>
+          </li>
+          <li>
+            <p class="title">Safari Specialist</p>
+            <p class="field">Troy Smith</p>
+          </li>
+          <li>
+            <p class="title">Travel Dates</p>
+            <p class="field">Sun Jan 20 2019 - Sat Feb 02 2019</p>
+          </li>
+          <li>
+            <p class="title">Adults</p>
+            <p class="field">4</p>
+          </li>
+          
+          <li>
+            <p class="title">Status</p>
+            <p class="field">Provisional</p>
+          </li>
+        </ul>
 
-  <footer>
-    <p class="quote">“I never knew of a morning in Africa when I woke up that I was not happy.”</p>
-    <p class="author">ERNEST HEMMINGWAY</p>
-  </footer>
-</div>
-
-
-<!-- SECOND PAGE -->
-<div class="page destinations">
-  <h1 class="page-header">Your Destinations</h1>
-  <p class="subtitle">Botswana</p>
-  <main>
-    <div class="container">
-      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2FKalahari%20lion.jpg?alt=media&token=fda427bf-7a5b-4a3b-86bd-2f5a70fbb2e0')">
-        <div class="gradient">
-          <p class="caption">An older Kalahari black-maned lion</p>
-        </div>
-      </div>
-      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2FSan%20Bushman.jpg?alt=media&token=9959195d-814c-4339-ab1e-0f814a106f38')">
-        <div class="gradient">
-          <p class="caption">The San people of the Kalahari region</p>
-        </div>
-      </div>
-      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2Fmokoro%20ride%20(002).jpg?alt=media&token=85414d83-7b46-4bdb-b8f2-7a4ff0e837d5')">
-        <div class="gradient">
-        <p class="caption">Glide through the Okavango Delta</p>
-      </div>
-      </div>
-      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2FDelta%20Views.jpg?alt=media&token=cbb0b46e-b701-425a-b2b1-bb41d9efded7')">
-        <div class="gradient">
-          <p class="caption">Views of the Okavango Delta</p>
-        </div>
-      </div>
-      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2Felephants.jpg?alt=media&token=b9ce9285-4eed-4434-be04-ae7bcab6fe73')">
-        <div class="gradient">
-          <p class="caption">Gentle giants</p>
-        </div>
-      </div>
-      <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/media%2Fvictoria_falls.jpg?alt=media&token=b8c2c258-e290-4251-8361-bab24158423b')">
-        <div class="gradient">
-          <p class="caption">"Mosi-o-tunya" aka, Victoria Falls</p>
-        </div>
-      </div>
-    </div>
-  </main>
-</div>
-
-
-<!-- THIRD PAGE -->
-<div class="page itenerary first">
-
-  <h1 class="page-header">Your Itinerary</h1>
-  <p class="subtitle">8 DAYS</p>
-  <div class="line"></div>
-
-  <main>
-    <div class="container">
-
-      <!-- SIDEBAR -->
-      <ul class="sidebar">
-        <li>
-          <p class="title">Itinerary</p>
-          <p class="field">Corne and Friends - African Adventure (Option 2)</p>
-        </li>
-        <li>
-          <p class="title">Safari Specialist</p>
-          <p class="field">Troy Smith</p>
-        </li>
-        <li>
-          <p class="title">Travel Dates</p>
-          <p class="field">Mon Mar 11 2019 - Mon Mar 18 2019</p>
-        </li>
-        <li>
-          <p class="title">Adults</p>
-          <p class="field">4</p>
-        </li>
-        
-        <li>
-          <p class="title">Status</p>
-          <p class="field">Provisional</p>
-        </li>
-      </ul>
-
-      <!-- ITENERARY ITEMS -->
-      <ul class="itenerary-items">
-        
+        <!-- ITENERARY ITEMS -->
+    		<ul class="itenerary-items">
+    			
 
 				 <!-- day + comment -->
 				 <li>
 				 <div class="legend">
 					 <p class="day">Day 1</p>
-					 <p class="date">11 MAR</p>
+					 <p class="date">20 JAN</p>
 				 </div>
 				 <div class="description">
-					 <p>Fly from Johannesburg through to Maun. Upon arrival collect your luggage and pass customs where you'll be met and set off on a charter flight into the Central Kalahari! Upon landing, you'll be met by your guide and meander through to camp. Enjoy afternoon safari activities. Overnight Dinaka in a luxury tent. </p>
-					  <p class="airport">South African Airways flight: Johannesburg - Maun (11:45 - 13:15)</p> <p class="airport">Charter Flight from Maun to Dinaka airstrip, time to be advised locally, but likely approx 13.45 take-off from Maun. </p>
+					 <p>Upon arrival at Kilimanjaro International Airport (JRO), collect your bags and make your way into the arrivals area where you'll be met by a driver and transferred through to Arusha where you'll overnight. Overnight at Katambuga House in a Deluxe Room. </p>
+					 
 				 </div>
 			 </li>
 
@@ -215,10 +136,11 @@ footer p:last-of-type{
 				 <li>
 				 <div class="legend">
 					 <p class="day">Day 2</p>
-					 <p class="date">12 MAR</p>
+					 <p class="date">21 JAN</p>
 				 </div>
 				 <div class="description">
-					 <p>Timeless and truly isolated, the Central Kalahari is the second largest wildlife reserve in the world and is situated in central Botswana’s Kalahari Desert biome. Endless roads stretch out into limitless wilderness and expansive skies glow with sun-washed blues and intricate cloud formations. The scenery is uniquely appealing, the golden grasslands, bush and fossilized salt pans and river beds, complemented by an overwhelming sense of space. The central Kalahari comes alive after the summer rains, transforming dry landscape to nourishing grasslands capable of supporting massive herds of game. Giraffe, warthog, wildebeest, eland, gemsbok, hartebeest and kudu feast on sweet grasses or succulent trees, and this green season is a natural awakening, with an energy all of its own. Overnight Dinaka in a luxury tent. </p>
+					 <p>Meet with your safari guide and depart in your private vehicle. 
+Drive south-west to Tarangire National Park (approx 2.5hrs to the gate). Tarangire National Park is renowned for its huge herds of elephant and beautiful baobab trees. There are also more than 400 species of bird to be found in the park. Overnight at Gibb’s Farm in a Garden Cottage. </p>
 					 
 				 </div>
 			 </li>
@@ -227,22 +149,10 @@ footer p:last-of-type{
 				 <li>
 				 <div class="legend">
 					 <p class="day">Day 3</p>
-					 <p class="date">13 MAR</p>
+					 <p class="date">22 JAN</p>
 				 </div>
 				 <div class="description">
-					 <p>Fly from Dinaka to Shinde airstrip in the famed Okavango Delta. Upon landing, you'll be met and set off on a game drive through to Shinde Camp. Overnight at Shinde in your luxury tent. </p>
-					  <p class="airport">Charter Flight from Dinaka airstrip to Shinde airstrip </p>
-				 </div>
-			 </li>
-
-				 <!-- day + comment -->
-				 <li>
-				 <div class="legend">
-					 <p class="day">Day 4 - 5</p>
-					 <p class="date">14 MAR - 15 MAR</p>
-				 </div>
-				 <div class="description">
-					 <p>On safari in the Okavango Delta! The seasonal flood from the Angola Highlands is the heartbeat of Botswana. Seeping along the panhandle and into the largest inland delta system in the world, the water creates a uniquely beautiful National Heritage Site, the incoming tide of life bringing with it birth, transformation and replenishment. These ancient, cyclical changes provide an exceptional safari experience and the area supports vast herds of elephant, buffalo and hippo, as well as numerous antelope, giraffe, zebra and the ever present predators. Overnight at Shinde in your luxury tent. </p>
+					 <p>Rise early and descend into the ancient Ngorongoro Crater for a full day game drive. Enjoy the stunning views of the ancient, collapsed caldera which is home to a variety of wildlife species. Overnight at Gibb’s Farm in a Garden Cottage. </p>
 					 
 				 </div>
 			 </li>
@@ -250,12 +160,24 @@ footer p:last-of-type{
 				 <!-- day + comment -->
 				 <li>
 				 <div class="legend">
-					 <p class="day">Day 6</p>
-					 <p class="date">16 MAR</p>
+					 <p class="day">Day 4</p>
+					 <p class="date">23 JAN</p>
 				 </div>
 				 <div class="description">
-					 <p>Fly from Shinde airstrip for Kasane airport. Upon arrival you'll be met and transferred through to Victoria Falls Town (around 1hr). Overnight Victoria Falls Hotel in your Deluxe room. </p>
-					  <p class="airport">Charter flight from Shinde airstrip to Kasane Airport (1h20mins)</p>
+					 <p>Fly from Manyara Airstrip (offering excellent views of the Great Rift Valley Escarpment and Lake Manyara) into the Serengeti. Overnight at Olakira Camp in a luxury tent. </p>
+					  <p class="airport">Coastal Aviation flight from Manyara to Ndutu (11:30 - 13:00)</p>
+				 </div>
+			 </li>
+
+				 <!-- day + comment -->
+				 <li>
+				 <div class="legend">
+					 <p class="day">Day 5 - 6</p>
+					 <p class="date">24 JAN - 25 JAN</p>
+				 </div>
+				 <div class="description">
+					 <p>Experience game drives in the short-grass plains of the Southern Serengeti which usually plays host to the Great Migration from December to early March each year. In February, the herds 'drop' (ie, give birth) to their young which creates opportunity for the predators in the region!. Overnight at Olakira Camp in a luxury tent. </p>
+					 
 				 </div>
 			 </li>
 
@@ -263,10 +185,22 @@ footer p:last-of-type{
 				 <li>
 				 <div class="legend">
 					 <p class="day">Day 7</p>
-					 <p class="date">17 MAR</p>
+					 <p class="date">26 JAN</p>
 				 </div>
 				 <div class="description">
-					 <p>Discover Victoria Falls Town, and of course the mighty waterfalls themselves! Prepare to get wet if you're travelling during "high water" (April - September), and we'd also suggest visiting the historic Victoria Falls Hotel for High Tea and exploring the local markets. Optional adventure sports and heli-flips available. Overnight Victoria Falls Hotel in your Deluxe room. </p>
+					 <p>Fly from the Serengeti through to Selous, changing planes half-way in Ruaha NP. On safari in Selous: experience an array of activities on both land and water. Did you know: Selous is home to one of Africa’s largest populations of African wild dog - one of the continent’s greatest predators?. Overnight in a luxury tent at Roho ya Selous. </p>
+					  <p class="airport">Coastal Aviation flight from Ndutu to Selous (09:30 - 13:05)</p>
+				 </div>
+			 </li>
+
+				 <!-- day + comment -->
+				 <li>
+				 <div class="legend">
+					 <p class="day">Day 8 - 9</p>
+					 <p class="date">27 JAN - 28 JAN</p>
+				 </div>
+				 <div class="description">
+					 <p>Experience the wilderness in Selous while on safari at Roho ya Selous - game drives, boating safaris, walking safaris and optional fly camping (available at an extra charge). Overnight in a luxury tent at Roho ya Selous. </p>
 					 
 				 </div>
 			 </li>
@@ -274,100 +208,129 @@ footer p:last-of-type{
 				 <!-- day + comment -->
 				 <li>
 				 <div class="legend">
-					 <p class="day">Day 8</p>
-					 <p class="date">18 MAR</p>
+					 <p class="day">Day 10</p>
+					 <p class="date">29 JAN</p>
 				 </div>
 				 <div class="description">
-					 <p>Transfer from Victoria Falls River Lodge to Victoria Falls Airport for your flight back to Johannesburg. </p>
-					  <p class="airport">South African Airways flight: Victoria Falls to Johannesburg (13:25 - 15:05)</p>
+					 <p>Fly from Selous through to Zanzibar (via Dar es Salaam). Upon landing into ZNZ Airport you'll be met and transferred through to your accommodation in Stone Town. Overnight at the Park Hyatt (in the heart of Stone Town) in a Ocean View Suite. </p>
+					  <p class="airport">Coastal Aviation flight from Selous to Zanzibar (09:15 - 11:20) </p>
 				 </div>
 			 </li>
-      </ul>
-      <!-- end Itenerary items -->
 
-    </div>
-  </main>
-  
-</div>
+				 <!-- day + comment -->
+				 <li>
+				 <div class="legend">
+					 <p class="day">Day 11</p>
+					 <p class="date">30 JAN</p>
+				 </div>
+				 <div class="description">
+					 <p>Transfer from Stone Town through to your beach property. Overnight at Baraza (in an Ocean Front Villa with private plunge pool). </p>
+					 
+				 </div>
+			 </li>
 
-<!-- Accomodation-->
-<div class="page accomodation first">
-  <h1 class="page-header">Your Accommodation</h1>
-  <main>
-    <div class="container">
-    <div class="accom">
+				 <!-- day + comment -->
+				 <li>
+				 <div class="legend">
+					 <p class="day">Day 12 - 13</p>
+					 <p class="date">31 JAN - 1 FEB</p>
+				 </div>
+				 <div class="description">
+					 <p>Relax by the pool or on the beach, or experience some of the many activities available in Zanzibar - all of which can be organized at the lodge upon arrival. Overnight at Baraza (in an Ocean Front Villa with private plunge pool). </p>
+					 
+				 </div>
+			 </li>
 
-    <div class="accom-list">
-      
-      <div class="wrapper">
-        <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/inventory-images%2FDinaka.jpg?alt=media&token=89fac932-ac1b-497c-b9be-242f219be35b')"></div>
-        <div class="accom-desc">
-          <h2>Dinaka  </h2>
-          <p class="location">Pans</p>
-          <p class="desc">Dinaka has been completely refurbished since being taken over by Ker and Downey Botswana and is located in an exclusive private reserve hugging the northern edge of the Central Kalahari Game Reserve - a region which hosts one of the most unique bio-diversities in Southern Africa. Dinaka’s tents are well spaced, tastefully styled and raised up on wooden decks giving the perfect vantage point over a permanent water hole. Camp activities include: morning, afternoon and night game drives, educational bush walks with a Bushman, photographic opportunities at an underground bunker and various photographic hides.  Maximum 4 guests per vehicle on game drives. </p>
-        </div>
-      </div>
-      <div class="wrapper">
-        <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/inventory-images%2FRoomTwinDeck-Shin-125631-1000x340.jpg?alt=media&token=50b71c5a-5aab-4f1c-9200-f820a9a0f474')"></div>
-        <div class="accom-desc">
-          <h2>Shinde</h2>
-          <p class="location">Okavango Delta</p>
-          <p class="desc">Shinde is located on a private concession, in the heart of the northern Okavango Delta. Nestled amongst shady trees, on the edge of Shinde Lagoon, this land and water camp commands spectacular views over breath-taking landscape. Spacious and luxuriously appointed, 8 classic safari tents are elevated and extend out to decks with magnificent floodplain or waterway vistas. Cool off in the secluded plunge pool whilst keeping watch for the wild inhabitants. Exciting day and night game drives are conducted in specially adapted open vehicles and guided bush walks are subject to the availability of a walking guide. Enjoy mokoro and boat excursion (subject to water levels), and fishing between March to December. </p>
-        </div>
-      </div>
-      <div class="wrapper">
-        <div class="img-block" style="background-image:url('https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/inventory-images%2FCourtyard-At-Victoria-Falls-Hotel.jpg?alt=media&token=5b6b8bb1-80ec-45c4-bece-3f013615d345')"></div>
-        <div class="accom-desc">
-          <h2>Victoria Falls Hotel </h2>
-          <p class="location">Victoria Falls</p>
-          <p class="desc">Built in 1904, the historic Victoria Falls Hotel is an icon, its gracious colonial architecture leading out to expansive terraces and lawns overlooking the Victoria Falls Bridge.  161 classic rooms and suites provide modern comfort and the tasteful echoes of the Edwardian past. Décor includes the memorabilia and old-world charm of a bygone era, a nod to the pioneers and explorers whose fame lives on, immortalised in the hotel’s elegant style. Using the mist from the Falls as a beacon, stroll through attractively landscaped gardens along a private pathway, to the scenic Victoria Falls rainforests. High Tea is served on the terrace, a delightful tradition which fits so well with the atmosphere and ethos of this luxurious hotel.</p>
-        </div>
-      </div>
-    </div>
-    </div>
-      <div class="add-ons">
-        <h2>Inclusions</h2>
+				 <!-- day + comment -->
+				 <li>
+				 <div class="legend">
+					 <p class="day">Day 14</p>
+					 <p class="date">2 FEB</p>
+				 </div>
+				 <div class="description">
+					 <p>Your final morning by the beach before transferring through to ZNZ Airport for your onward flight to Arusha. Upon landing, you'll be met and transfer through to JRO for your onward international flight. </p>
+					  <p class="airport">Coastal Aviation flight from Zanzibar to Arusha (15:30 - 17:40)  </p>
+				 </div>
+			 </li>
+        </ul>
+    		<!-- end Itenerary items -->
 
+        <!-- quote -->
+        <div class="itenerary-quote">
+          <h2>Quote</h2>
+
+          <table class="quoting" cellspacing="0">
+
+            <!-- Price -->
+            <tr>
+              <td class="description">Average price per person, per day of service</td>
+              <td class="currency">USD</td>
+              <td class="amount"/>710.71</td>
+            </tr>
+            <tr>
+              <td class="description">Average price per person</td>
+              <td class="currency">USD</td>
+              <td class="amount">9,950.00</td>
+            </tr>
+            <tr class="total-price">
+              <td class="description">Total Price</td>
+              <td class="currency">USD</td>
+              <td class="amount">39,800.00</td>
+            </tr>
+
+            <tr class="deposit" >
+          <td class="description">Deposit Required</td>
+          <td class="currency">USD</td>
+          <td class="amount">11,940.00</td>
+        </tr>
         
-      <p >
-      <b>Included at Dinaka  :</b> accommodation, all meals, local brand drinks, 2 scheduled safari activities daily and return Dinaka airstrip transfers
-      </p>
-      <p >
-      <b>Included at Shinde:</b> Accommodation, all meals, selected local brand drinks, 2 scheduled safari activities daily, park fees, return Shinde airstrip transfers and laundry. Maximum 4 guests per vehicle.
-Camp activities include: morning, afternoon & night game drives, bush walks, boat and mokoro excursions, fishing (excluding Jan & Feb). 
 
-      </p>
-      <p >
-      <b>Included at Victoria Falls Hotel :</b> Accommodation and Breakfast
-      </p>
+            <!-- payments -->
+            
 
-        <h2>Exclusions</h2>
-        <p class="exclusion-item">International travel, Tourist visas, Drinks and meals unless specified in inclusions, General Travel Insurance (it is strongly recommended not to travel without comprehensive travel and medical insurance), Tipping and gratuities (please read the Important Information for your Safari document for more info).</p>
-
-      </div>
+          <!-- BALANCE -->
+            <tr class="balance-due">
+              <td class="description">Balance Due</td>
+              <td class="currency">USD</td>
+              <td class="amount">39,800.00</td>
+            </tr>
+          </table>
+        </div>
+        </div>
+      </main>
     </div>
-  </main>
-</div>
 
-<!-- Contact-->
-
-<div class="page contact">
-  <h1 class="page-header">Contact Information</h1>
-  <main>
-    <div class="container">
-    
+     <!-- Contact-->
+     <div class="page contact">
+      <h1 class="page-header">Contact Information</h1>
+      <main>
+        <div class="container">
+        
            <div class="contact-block">
-        <p class="heading">Botswana</p>
+        <p class="heading">Tanzania</p>
         <div class="details">
           <!-- office hours -->
           <p class="field">Office Hours</p>
-          <p class="value">+27 82 873 0791</p>
+          <p class="value">+255 736 500 515</p>
           <br><!-- after hours -->
           <p class="field">After Hours</p>
-          <p class="value">+27 82 601 7046</p>
+          <p class="value">+255 784 999 736</p>
           <br>            <!-- after hours -->
           <p class="field">Alternative After Hours</p>
-          <p class="value">+27 82 387 2717</p>
+          <p class="value">+27 72 710 4045</p>
+          <br></div></div>
+           <div class="contact-block">
+        <p class="heading">Zanzibar</p>
+        <div class="details">
+          <!-- office hours -->
+          <p class="field">Office Hours</p>
+          <p class="value">+255 736 500 515</p>
+          <br><!-- after hours -->
+          <p class="field">After Hours</p>
+          <p class="value">+255 784 999 736</p>
+          <br>            <!-- after hours -->
+          <p class="field">Alternative After Hours</p>
+          <p class="value">+27 72 710 4045</p>
           <br></div></div>
         <h2 class="sub-header">True Africa - The Safari Company</h2>
         <div class="contact-block">
@@ -384,23 +347,23 @@ Camp activities include: morning, afternoon & night game drives, bush walks, boa
           </div>
           <p class="aside">Our office is open Monday to Friday between 08:30 to 17:00, Standard South African Time (GMT +2 Hours). During weekends or after office hours, please contact us by mobile phone (call or SMS) rather than contacting the office line or emailing.</p>
         </div>
-      <div class="info-block">
-        <img src="https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/info%402x.png?alt=media&token=32aca098-eb54-4b6b-a7fd-494cc547daa2" alt="" width="24" height="24">
-        <p>Please read your <em>Important Info for your Safari</em> brochure for further information about tipping, weather, visas, vaccines, what to pack and more.</p>
-      </div>
 
+          <div class="info-block">
+            <img src="https://firebasestorage.googleapis.com/v0/b/true-africa-itinerary.appspot.com/o/info%402x.png?alt=media&token=32aca098-eb54-4b6b-a7fd-494cc547daa2" alt="" width="24" height="24">
+            <p>Please read your <em>Important Info for your Safari</em> brochure for further information about tipping, weather, visas, vaccines, what to pack and more.</p>
+          </div>
+
+        </div>
+      </main>
     </div>
-  </main>
-</div>
-<footer id="pageFooter">
-  
+    <footer id="pageFooter">
+      
   <p>True Africa - The Safari Company</p>
   <p>www.trueafrica.com</p>
   <p>info@trueafrica.com</p>
       
-</footer>
-<div id="pageFooter-first"></div>
-
+    </footer>
+    <div id="pageFooter-first"></div>
 
 <script>
 $(function(){
@@ -416,37 +379,20 @@ $( ".itenerary-items li" ).each(function( index ) {
   if (height > heightThreshold) {
     count ++;
 
-    // select and remove li's that don't fit
-    var copied = $(this).nextAll().addBack().detach(); 
-
-    // select whole first itenerary page
-    var ul =  $('.page.itenerary.first'); 
-
-    // clone first itenerary page, 
-    // remove the 'page' and 'first' classes,
-    // empty it and append the copied li's    
-    // Q: not sure why we doing all this when we're creating a whole new page below
-    // REMOVED: var copyUl = ul.clone().removeClass('page first').empty().append(copied);    
-  
-    // create new itenerary page
+    var copied = $(this).nextAll().addBack().detach();
+    var ul =  $('.page.itenerary.first');
+    //var copyUl = ul.clone().removeClass('page first').empty().append(copied);
     var test = $('<div class="page itenerary appended-' + count + '"><main><div class="container border-break"><div class="spacer"></div><ul class="itenerary-items copy-here'+ count +'"></ul></div></div></main></div>');
 
-    // place new page after previous
     $('.page.itenerary').last().after(test);
-
-    // insert clone page with the copied li's
-    // Q: instead of appending cloned page, we just append li's to new itenerary page
-    // REMOVED: $('.copy-here'+ count).append(copyUl.removeClass('first'));
-
-    // ADDED: just append the li's
+    //$('.copy-here'+ count).append(copyUl.removeClass('.first'));
     $('.copy-here'+ count).append(copied);
 
-    // append quote after itenerary items
-    // Q: no quote for this page surely?
-    // REMOVED: $('.itenerary-quote').insertAfter($('.copy-here'+ count).last());
-    
-    // reset height to that of current item
-    height = $(this).outerHeight();
+    // append quote to end
+     $('.itenerary-quote').insertAfter($('.copy-here'+ count).last());
+
+     // reset height to that of current item
+     height = $(this).outerHeight();
   }
 
 });
@@ -500,9 +446,7 @@ if (accomHeight + addOnsHeight > addonsThreshold) {
 
 
 // If QUOTE + ITENERary ARE TOO big
-// REMOVED: (unnecessary as no quote)
-/* ---------------------------------
-
+// ---------------------------------
 var lastIteneraryPage = $('.page.itenerary').last();
 var quoteThreshold = 610;
 if( lastIteneraryPage.hasClass('first') ) quoteThreshold = 570;
@@ -517,10 +461,9 @@ if (lastIteneraryItemsHeight + quotHeight > quoteThreshold) {
     lastIteneraryPage.after(newPage);
     $('.move-quote-here').append(quote);
 }
-*/
 });
 </script>
 
+    </body>
 
-</body>
-</html>
+    </html>
