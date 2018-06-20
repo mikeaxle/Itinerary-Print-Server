@@ -318,8 +318,7 @@ hr {
 ul.itenerary-items {
     display: inline-block;
     vertical-align: top;
-    /* width was originally 410 */
-    width: 380px;
+    width: 410px;
     padding: 0px;
     margin: 0px;
     padding-top: 10px
@@ -355,9 +354,11 @@ ul.itenerary-items li .legend .date {
 }
 ul.itenerary-items li .description {
     display: inline-block;
-    width: 320px;
+    width: 329px;
     vertical-align: top;
+    width: 340px;
     margin-top: 10px;
+
 }
 
 ul.itenerary-items li .description p {
@@ -514,7 +515,7 @@ table.quoting tr.balance-due td {
 }
 
 .accomodation .accom-desc {
-    width: 260px;
+    width: 270px;
     height: 130px;
     display: inline-block;
     vertical-align: top;
