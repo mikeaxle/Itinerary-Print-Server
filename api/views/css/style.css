@@ -78,7 +78,6 @@ body {
 }
 
 @media print {
-
     @page {
         size: letter;
     }
@@ -357,7 +356,6 @@ ul.itenerary-items li .description {
     vertical-align: top;
     margin-top: 10px;
 }
-
 ul.itenerary-items li .description p {
     font-family: "montserratregular";
     font-size: 9px;
@@ -685,42 +683,39 @@ footer p:last-of-type{
 
 /* HEADER */
 header{
-
-  height: 90px;
+    height: 90px;
 }
 header img {
-  display: block;
-  margin: auto;
-  padding-top: 35px
+    display: block;
+    margin: auto;
+    padding-top: 35px
 }
 header h1.page-header {
-  position: relative;
-  margin: 12px 0px 0px 0px;
-  color: #373737;
-  font-family: 'georgiaitalic';
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
-  font-weight: 400;
+    position: relative;
+    margin: 12px 0px 0px 0px;
+    color: #373737;
+    font-family: 'georgiaitalic';
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    font-weight: 400;
 }
 header h1.page-header:after {
-  content: "";
-  position: absolute;
-  width: 73px;
-  height: 1px;
-  background-color: #e0e0e0;
-  left: 272px;
-  bottom: -9px;
+    content: "";
+    position: absolute;
+    width: 73px;
+    height: 1px;
+    background-color: #e0e0e0;
+    left: 272px;
+    bottom: -9px;
 }
 header p.subtitle {
-  font-weight: normal;
-  text-align: center;
-  font-family: "montserratregular";
-  font-size: 10px;
-  letter-spacing: 0.8px;
-  color: #373737;
-  text-transform: uppercase;
-  margin: 19px 0px 0px 0px;
-
+    font-weight: normal;
+    text-align: center;
+    font-family: "montserratregular";
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    color: #373737;
+    text-transform: uppercase;
+    margin: 19px 0px 0px 0px;
 }
-

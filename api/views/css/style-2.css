@@ -14,14 +14,12 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'montserratitalic';
     src: url('../fonts/Montserrat-Italic.ttf');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
 
     font-family: 'MontserratSemiBoldItalic';
@@ -357,9 +355,7 @@ ul.itenerary-items li .description {
     width: 329px;
     vertical-align: top;
     margin-top: 10px;
-
 }
-
 ul.itenerary-items li .description p {
     font-family: "montserratregular";
     font-size: 9px;
@@ -687,7 +683,6 @@ footer p:last-of-type{
 
 /* HEADER */
 header{
-
     height: 90px;
 }
 header img {
@@ -723,5 +718,4 @@ header p.subtitle {
     color: #373737;
     text-transform: uppercase;
     margin: 19px 0px 0px 0px;
-
 }
