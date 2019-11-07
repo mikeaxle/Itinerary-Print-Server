@@ -719,3 +719,11 @@ header p.subtitle {
     text-transform: uppercase;
     margin: 19px 0px 0px 0px;
 }
+.contact-block .normal-text {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    line-height: 10px;
+    font-size: 8px;
+    color: #373737;
+    font-family: "montserratregular";  
+}
