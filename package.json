@@ -10,6 +10,8 @@
   "author": "Michael Lungu",
   "license": "ISC",
   "dependencies": {
+    "basic-ftp": "^4.5.1",
+    "blob": "0.0.5",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.2",
