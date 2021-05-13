@@ -51,8 +51,8 @@ module.exports = function(app) {
         // access ftp server
         await client.access({
             host: "files.000webhost.com",
-            user: "itinerary-manager-ta",
-            password: "Wolf@1988",
+            user: "itinerary-manager",
+            password: "Mj(72hpax5uU#tzs$(xk",
             secure: false
         })
 
@@ -61,7 +61,7 @@ module.exports = function(app) {
         console.log(result)
 
         // upload Result 
-        uploadResult = `https://itinerary-manager-ta.000webhostapp.com/${title}.html`;
+        uploadResult = `https://itinerary-manager.000webhostapp.com/${title}.html`;
     }
     catch(err) {
         // get error
